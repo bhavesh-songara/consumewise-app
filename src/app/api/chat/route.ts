@@ -71,7 +71,6 @@ export async function POST(req: Request) {
         },
       }),
     },
-    toolChoice: "required",
   });
 
   return result.toDataStreamResponse();
